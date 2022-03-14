@@ -21,7 +21,7 @@ li{
     background-color: #dbdadac9;
 padding: 15px 0;
 }
- img{
+.imag{
     width: 15%;
 }
 ul li{
@@ -58,4 +58,73 @@ ul li{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+/* catagories */
+.category-top{
+    text-align: center;
+    padding-top: 100px;
+
+}
+.category-top h2{
+font-size: 36px;
+}
+.content{
+    text-align: center;
+}
+.image img{
+    /* width: 100%; */
+}
+.content h1{
+    padding:40px 0;
+}
+.content a{
+    background-color: #198754;
+    padding: 5px 30px;
+    border-radius: 15px;
+    color: white;
+
+}
+.product{
+   background-color: gray;
+   
+}
+.products{
+    display: flex;
+    justify-content: space-between;
+}
+.product-parant{
+    background-color:#f7f7f7;
+    padding:10px 30px;
+}
+.products .product-parant .image img:hover{
+transform: scale(1.2);
+transition: 1s;
+}
+
+/* fresh section  */
+.fresh-section{
+    padding-top: 50px;
+}
+.fruits-parent{
+    display: flex;
+    
+}
+.fruits{
+    display: flex;
+    background-color: #ccc; 
+    padding-left: 50px;
+}
+.food-content h4{
+    padding-bottom: 15px;
+    color: red;
+}
+.food-content p{
+    padding:15px 0;
+}
+.order-btn{
+    padding: 5px 30px;
+    border-radius: 20px;
+    background-color:#198754; 
+    color: white;
+
 }
