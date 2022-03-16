@@ -35,6 +35,7 @@ ul li{
 }
 .search-box{
     padding-right: 200px;
+    position: relative;
 }
 .btn {
     position: absolute;
@@ -63,6 +64,7 @@ ul li{
 .category-top{
     text-align: center;
     padding-top: 100px;
+    padding-bottom: 30px;
 
 }
 .category-top h2{
@@ -178,9 +180,65 @@ transition: 1s;
 
 
 /* banner */
-
+.banner-img {
+    position: relative;
+}
 .banner-img img{
     width: 100%;
 
 padding-top: 50px;
+padding-bottom: 50px;
+}
+.promo-title{
+    position: absolute;
+    font-size: 53px;
+    top: 50%;
+    left: 20%;
+    width: 321px;
+    font-weight: 700;
+    color: #198754;
+}
+/* footer  */
+.footer-section{
+    padding-top: 30px;
+}
+.logo h2{
+    padding-bottom: 10px;
+}
+.logo h5{
+    padding-bottom: 15px;
+}
+.information ul li{
+    display: block;
+    line-height: 25px;
+}
+.information h1{
+    padding-bottom: 10px;
+}
+.user-area ul li{
+    display: block;
+    line-height: 25px;
+}
+.user-area  h2{
+    padding-bottom: 10px;
+}
+.footer-parants{
+    display: flex;
+    justify-content: space-between;
+}
+.payment-system{
+    display: flex;
+    justify-content: space-between;
+}
+.contuct h1{
+padding-bottom: 10px;
+}
+.contuct p{
+    padding-bottom: 10px;
+}
+.hr{
+    padding: 15px 0;
+}
+.footer{
+    text-align: center;
 }
